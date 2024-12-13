@@ -1,0 +1,70 @@
+body {
+    background-color: #1434A4;
+    font-family: Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+#conditions {
+    border: 2px solid white;
+    padding: 20px;
+}
+
+h1 {
+    border: 2px solid white;
+    font-size: 3em;
+    text-align: center;
+}
+
+h2 {
+    font-size: 14em;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+h3 {
+    font-size: 2.25em;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#temp, #wind {
+    border: 1px solid white;
+    padding: 20px;
+}
+
+#detail {
+    display: flex;
+    flex-direction: flex;
+    justify-content: center;
+}
+
+
+@media screen and (max-width: 430px) {
+    body {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    #conditions {
+        padding: 5px;
+        width: 100%;
+    }
+
+    h1, h2, h3 {
+        font-size: 20px;
+        text-align: center;
+        margin: 0;
+        width: 100%;
+    }
+
+    #temp, #wind {
+        padding: 5px;
+        width: 100%;
+    }
+
+    #detail {
+        display: block;
+    }
+}
